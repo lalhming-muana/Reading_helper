@@ -1,3 +1,4 @@
+/*
 window.addEventListener('DOMContentLoaded', function() {
     // Your code here
     $('p').each(function() {
@@ -8,8 +9,10 @@ window.addEventListener('DOMContentLoaded', function() {
     $('p span').hover(
         function() {
           var highlightedText = $(this).text();
-          $('#word').text($(this).css('background-color','#ffff66').text());
+          $('#word').text($(this).css('background-color','#18af64').text());
+          
           var msg = new SpeechSynthesisUtterance();
+          msg.lang = 'en-US'; 
           msg.text = highlightedText;
           window.speechSynthesis.speak(msg);
         },
@@ -23,7 +26,7 @@ window.addEventListener('DOMContentLoaded', function() {
     
 
 });
-
+*/
 
  /*
 window.addEventListener('DOMContentLoaded', function() {

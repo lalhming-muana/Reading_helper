@@ -2,7 +2,27 @@ body{
     font-size: large;
     font-style: normal;
     color: black;
+    background-image: url('https://cdn.cdnparenting.com/articles/2019/06/16112058/The-Boy-Who-Cried-Wolf-Story-with-Moral-1296317650-1024x700.webp');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    
 
+}
+
+#topBar {
+    margin: auto;
+    width: 70vw;
+    align-items: left;
+    
+    background-color: black;
+    }
+
+h2{
+    background-color: #f1f1f1;
+    opacity: 1;
+    background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0));
 }
 
 .sidebar {
@@ -55,10 +75,18 @@ body{
     }
   }
 
-p {
-    font-size: large;
+#main-text {
+    font-size: 23px;
     font-style: normal;
     color: black;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    background: rgba(204, 204, 204, 0.2);
+    text-align: center;
+    line-height: 1.8;
+    padding-right: 40px;
+    padding-left: 40px;
+
 }
 
 #editable-text {
@@ -68,9 +96,45 @@ p {
   
 
 
-#editable-text:hover span {
-    background-color: yellow;
+#editable-text:hover {
+    background-color: #18af64;
+    
     
     
   }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
+  .box{
+    position: absolute;
+      right: 5px;
+      bottom: 5px;
+      margin: 5px 5px;
+      border-color: white;
+      border-style: solid;
+  }
+  
   
