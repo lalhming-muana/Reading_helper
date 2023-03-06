@@ -1,0 +1,140 @@
+body{
+    font-size: large;
+    font-style: normal;
+    color: black;
+    background-image: url('https://storyworks.scholastic.com/content/dam/classroom-magazines/storyworks/issues/2019-20/030120/elephants-and-the-mice/STW05-202003-p22-Palace-popup.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    
+
+}
+
+#topBar {
+    margin: auto;
+    width: 70vw;
+    align-items: left;
+    
+    background-color: black;
+    }
+
+h2{
+    background-color: #f1f1f1;
+    opacity: 1;
+    background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0));
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+#main-text {
+    font-size: 23px;
+    font-style: normal;
+    color: black;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    background: rgba(204, 204, 204, 0.2);
+    text-align: center;
+    line-height: 1.8;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+#editable-text {
+    font-size: large;
+    
+  }
+  
+
+
+#editable-text:hover {
+    background-color: #18af64;
+    
+    
+    
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
+  .box{
+    position: absolute;
+      right: 5px;
+      bottom: 5px;
+      margin: 5px 5px;
+      border-color: white;
+      border-style: solid;
+  }
+  
+  
